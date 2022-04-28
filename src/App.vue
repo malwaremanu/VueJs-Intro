@@ -1,26 +1,28 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<div class="container mx-auto">
+  <Navbar />
+  <div>
+    <div class="text-xl font-semibold text-gray-700 text-center p-2">
+      This is a sample android app
+    </div>
+    <Butto />  
+  </div>
+</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Butto from './components/btn.vue'
+import Navbar from './components/navbar.vue'
+// import Loc from './components/inapp.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  data() {    
+      return { location : '' }
+  },
+  components : {
+    Butto, Navbar
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

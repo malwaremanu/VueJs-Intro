@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">hello-vue</string>
+    <string name="title_activity_main">hello-vue</string>
+    <string name="package_name">com.manupal.dev</string>
+    <string name="custom_url_scheme">com.manupal.dev</string>
+</resources>

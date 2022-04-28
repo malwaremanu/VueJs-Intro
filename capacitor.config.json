@@ -1,0 +1,6 @@
+{
+  "appId": "com.manupal.dev",
+  "appName": "hello2-vue",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
